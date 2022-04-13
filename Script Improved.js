@@ -61,7 +61,9 @@
         document.querySelector(".player2Wins").innerHTML = player2Wins + " " + "Wins";
     }
     function square1() {
-        moveCount++;
+        if (n1 == 0) {
+            moveCount++;
+        }
         console.log(moveCount + "a");
        if (turn == 1 && gameEnd != true && n1 == 0) {
            document.querySelector(".x1").style.fontSize = "110px";
@@ -74,7 +76,9 @@
        }
     }
     function square2() {
-        moveCount++;
+        if (n2 == 0) {
+            moveCount++;
+        }
         console.log(moveCount + "a");
         if (turn == 1 && gameEnd != true && n2 == 0) {
             document.querySelector(".x2").style.fontSize = "110px";
@@ -87,7 +91,9 @@
         }
      }
      function square3() {
-        moveCount++;
+        if (n3 == 0) {
+            moveCount++;
+        }
         console.log(moveCount + "a");
         if (turn == 1 && gameEnd != true && n3 == 0) {
             document.querySelector(".x3").style.fontSize = "110px";
@@ -100,7 +106,9 @@
         }
      }
      function square4() {
-        moveCount++;
+        if (n4 == 0) {
+            moveCount++;
+        }
         console.log(moveCount + "a");
         if (turn == 1 && gameEnd != true && n4 == 0) {
             document.querySelector(".x4").style.fontSize = "110px";
@@ -113,7 +121,9 @@
         }
      }
      function square5() {
-        moveCount++;
+        if (n5 == 0) {
+            moveCount++;
+        }
         console.log(moveCount + "a");
         if (turn == 1 && gameEnd != true && n5 == 0) {
             document.querySelector(".x5").style.fontSize = "110px";
@@ -126,7 +136,9 @@
         }
      }
      function square6() {
-        moveCount++;
+        if (n6 == 0) {
+            moveCount++;
+        }
         console.log(moveCount + "a");
         if (turn == 1 && gameEnd != true && n6 == 0) {
             document.querySelector(".x6").style.fontSize = "110px";
@@ -139,7 +151,9 @@
         }
      }
      function square7() {
-        moveCount++;
+        if (n7 == 0) {
+            moveCount++;
+        }
         console.log(moveCount + "a");
         if (turn == 1 && gameEnd != true && n7 == 0) {
             document.querySelector(".x7").style.fontSize = "110px";
@@ -152,7 +166,9 @@
         }
      }
      function square8() {
-        moveCount++;
+        if (n8 == 0) {
+            moveCount++;
+        }
         console.log(moveCount + "a");
         if (turn == 1 && gameEnd != true && n8 == 0) {
             document.querySelector(".x8").style.fontSize = "110px";
@@ -165,7 +181,9 @@
         }
      }
      function square9() {
-        moveCount++;
+        if (n9 == 0) {
+            moveCount++;
+        }
         console.log(moveCount + "a");
         if (turn == 1 && gameEnd != true && n9 == 0) {
             document.querySelector(".x9").style.fontSize = "110px";
